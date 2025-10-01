@@ -11,11 +11,11 @@ const printSquareNumbers = (n) => {
  let total=0
  for(let x=1;x<=n;x++){
   total=total+x*x
-  console.log(x*x)
+  console.log(`\x1b[51m${x*x}${x*x}${x*x}${x*x}${x*x}${x*x}${x*x}\x1b[0m`)
  }
 return total
 }
- console.log(printSquareNumbers(5));
+ console.log(printSquareNumbers(50000000000000000000000000000));
 //will print: 1, 4, 9, 16, 25
 // Final output is: 55
 
